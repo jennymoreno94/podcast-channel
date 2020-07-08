@@ -75,6 +75,8 @@ li a {
   text-decoration: none;
 }
 
+
+
 #menu-btn:checked + label #bars{
   display: none;
   transition: flex-basis 500ms ease-in-out;
@@ -121,12 +123,16 @@ li a {
   font-weight: 500;
   font-size: 1em;
   background-color: #00F3BB;
-  color: #060A24;
+
   letter-spacing: 0;
   text-align: center;
   line-height: 22px;
   margin-left: 3vw;
-  
+}
+
+.button a {
+  text-decoration: none;
+  color: #060A24;
 }
 
 button:hover {
