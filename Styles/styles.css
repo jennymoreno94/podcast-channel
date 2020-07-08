@@ -28,19 +28,16 @@ h2 {
   position: fixed;
   z-index: 3;
   background-color: #FFFFFF;
-  border: #000000 1px solid;
 }
 
 .header .logo {
   float: left;
   padding: 10px 16px;
-  border: #000000 1px solid;
 }
 
 .header .menu {
   margin: 0;
   display: none;
-  border: #000000 1px solid;
 }
 
 .header .menu-icon {
@@ -49,19 +46,16 @@ h2 {
   display: flex;
   align-items: flex-end;
   flex-direction: column;
-  border: #000000 1px solid;
 }
 
 .header .menu-btn {
   display: none;
-  border: #000000 1px solid;
 }
 
 .menu-btn:checked ~ .menu {
   display: flex;
   flex-direction: column;
   transition: flex-basis 500ms ease-in-out;
-  border: #000000 1px solid;
 }
 
 ul {
@@ -69,7 +63,6 @@ ul {
   background-color: #0000EC;
   list-style-type: none;
   z-index: 1;
-  border: #000000 1px solid;
 }
 
 li a {
@@ -80,7 +73,6 @@ li a {
   line-height: 28px;
   font-size: 1em;
   text-decoration: none;
-  border: #000000 1px solid;
 }
 
 #menu-btn:checked + label #bars{
@@ -95,7 +87,6 @@ li a {
 #home {
   padding-top: 5vh;
   padding: 16px 16px 0px;
-  border: #000000 1px solid;
 }
 
 #home h1 {
@@ -106,7 +97,6 @@ li a {
   /*width: 80vw;*/
   font-weight: 400;
   margin-left: 3vw;
-  border: #000000 1px solid;
 }
 
 #home p {
@@ -118,7 +108,6 @@ li a {
   line-height: 22px;
   margin: 3vw;
   padding-bottom: 16px;
-  border: #000000 1px solid;
 }
 
 #spanWorld{
@@ -153,14 +142,12 @@ button:hover {
  -ms-transform: skewY(-6deg);
   transform: skewY(-6deg);
   margin-top: 10vh;
-  border: #000000 1px solid;
 }
 
 #episodies>* {
   -webkit-transform: skewY(6deg);
   -ms-transform: skewY(6deg);
   transform: skewY(6deg);
-  border: #000000 1px solid;
 }
 
 
@@ -169,7 +156,6 @@ button:hover {
   border-right-width: 0px;
   /*padding: 116px 0px 0px 0px;*/
   /*width: 100%;*/
-  border: #000000 1px solid;
 }
 
 
@@ -185,7 +171,7 @@ button:hover {
   padding: 24px 16px;
   margin-top: 24px;
   margin-left: 3vw;
-  border: #000000 1px solid;
+
 }
 
 .frames {
@@ -193,7 +179,6 @@ button:hover {
   grid-template-rows: repeat(4, 1fr);
   margin-left: 3vw;
   padding-bottom: 33vh;
-  border: #000000 1px solid;
 }
 
 .iframe {
@@ -201,14 +186,12 @@ button:hover {
     height: 155px;
     margin-top: 10px; 
     border: none;
-    border: #000000 1px solid;
 }
 
 .img {
   width: 100vw;
   margin-top: -23vh;
   position: relative;
-  border: #000000 1px solid;
 }
 
 #about_us h2 {
@@ -222,7 +205,6 @@ button:hover {
   padding: 0px 16px;
   margin-top: 27px;
   margin-left: 3vw;
-  border: #000000 1px solid;
 }
 
 
@@ -235,7 +217,6 @@ button:hover {
   line-height: 22px;
   padding: 0px 16px;
   margin: 3vw;
-  border: #000000 1px solid;
 }
 
 
@@ -250,20 +231,17 @@ button:hover {
   padding: 0px 16px;
   margin-top: 54px;
   margin-left: 3vw; 
-  border: #000000 1px solid;
 }
 
 .grid_images {
   display: grid;
   grid-template-rows: repeat(6, 1fr);
   margin-top: 3vh;
-  border: #000000 1px solid;
 }
 
 .image {
   width: 100vw;
   height: 243px;
-  border: #000000 1px solid;
 }
 
 #topics h2 {
@@ -277,7 +255,6 @@ button:hover {
   padding: 0px 16px;
   margin-top: 48px;
   margin-left: 3vw;
-  border: #000000 1px solid;
 }
 
 
@@ -286,7 +263,6 @@ button:hover {
   flex-direction: column;
   align-items: center;
   margin-top: 4vh;
-  border: #000000 1px solid;
 }
 
 .icon {
@@ -294,7 +270,6 @@ button:hover {
   flex-direction: column;
   align-items: center;
   margin-top: 4vh;
-  border: #000000 1px solid;
 }
 
 h3 {
@@ -305,7 +280,6 @@ h3 {
   color: #060A24;
   letter-spacing: 0;
   text-align: center;
-  border: #000000 1px solid;
 }
 
 #news {
@@ -315,7 +289,6 @@ h3 {
   clip-path: polygon(0 19%, 100% 0, 100% 99%, 0% 100%);
   margin-top: 10vh;
   padding: 16px 16px 70px;
-  border: #000000 1px solid;
 }
 
 
@@ -330,7 +303,6 @@ h3 {
   font-weight: 400;
   text-align: center;
   margin-bottom: 11vh;
-  border: #000000 1px solid;
 }
 
 .socialNetworks {
@@ -338,7 +310,6 @@ h3 {
    display: flex;
    flex-direction: column;
    align-items: center;
-   border: #000000 1px solid;
 }
 
 .socialNetworks p {
@@ -349,7 +320,6 @@ h3 {
   line-height: 22px;
   text-align: center;
   font-weight: 400;
-  border: #000000 1px solid;
 }
 
 .socialNetworks .social_icons {
@@ -357,12 +327,10 @@ h3 {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  border: #000000 1px solid;
 }
 
 .socialNetworks i {
   color: #000000;
-  border: #000000 1px solid;
 }
 
 
@@ -374,7 +342,6 @@ h3 {
     el heade8r y el nav*/ 
     height: 80px;
     width: 100vw;
-   border: #000000 1px solid;
   } 
 
   .header .logo {
@@ -382,25 +349,21 @@ h3 {
     padding: 22px 100px;
     width: 36px;
     height: 36px;
-    border: #000000 1px solid;
   }
   
   .header .menu-icon {
     display: none;
-    border: #000000 1px solid;
   }
   
   .header .menu {
     display: flex;
     justify-content: flex-end;
     margin-right: 16vh;
-    border: #000000 1px solid;
   }
   
  .header .menu ul {
     list-style: none;
     display: flex; 
-    border: #000000 1px solid;
   }
 
   ul {
@@ -408,7 +371,6 @@ h3 {
     background-color: #FFFFFF;
     list-style-type: none;
     z-index: 1;
-    border: #000000 1px solid;
   }
   
   li a {
@@ -420,7 +382,6 @@ h3 {
     line-height: 28px;
     font-size: 1em;
     text-decoration: none;
-    border: #000000 1px solid;
   }
 
   li a:hover{
@@ -436,13 +397,10 @@ h3 {
   #home {
     padding-top: 10vh;
     padding: 120px 200px 0px;
-    border: #000000 1px solid;
   }
 
   #home p {
     width: 40vw; 
-    border: #000000 1px solid;
-
   }
 
   #home .button {
@@ -459,13 +417,11 @@ h3 {
     border-right-width: 0px;
     /*padding: 116px 0px 0px 0px;*/
     width: 100%;
-    border: #000000 1px solid;
   }
 
   #episodies .tittleEpisodes {
     width: 30%;
     margin-left: 13vw;
-    border: #000000 1px solid;
   }
 
   .frames {
@@ -474,7 +430,6 @@ h3 {
     grid-template-rows: repeat(2, 1fr);
     margin-left: 3vw;
     padding-bottom: 55vh;
-    border: #000000 1px solid;
   }
   
   .iframe {
@@ -482,7 +437,6 @@ h3 {
       height:232px;
       border: none;
       margin-top: 72px;
-      border: #000000 1px solid;
   }
 
   .img {
@@ -490,7 +444,6 @@ h3 {
     margin-top: -32vh;
     position: relative;
     padding-left: 231px;
-    border: #000000 1px solid;
   }
 
   #guests h2 {
@@ -498,12 +451,10 @@ h3 {
     border-right-width: 0px;
     /*padding: 116px 0px 0px 0px;*/
     width: 100%;
-    border: #000000 1px solid;
   }
   #guests .tittleGuests {
     width: 40%;
     margin-left: 13vw;
-    border: #000000 1px solid;
 
   }
 
@@ -511,26 +462,22 @@ h3 {
     display: grid;
     grid-template: repeat(2, 1fr) /repeat(3, 1fr);
     margin-top: 3vh;
-    border: #000000 1px solid;
   }
 
   .image {
     width: 100%;
     height: 243px;
-    border: #000000 1px solid;
   }
 
   #guests .tittleGuests {
     width: 40%;
     margin-left: 13vw;
-    border: #000000 1px solid;
   }
 
 
   #topics .tittleTopics {
     width: 50%;
     margin-left: 13vw;
-    border: #000000 1px solid;
   }
 
 
@@ -538,7 +485,6 @@ h3 {
     padding-right: 0px;
     border-right-width: 0px;
     margin-left: 3vw;
-    border: #000000 1px solid;
    /* padding: 0px 200px 16px;*/
   }
   
@@ -566,7 +512,6 @@ h3 {
     justify-content: flex-end;
     justify-content: space-around;
     width: 30%;
-    border: #000000 1px solid;
   }
 
   .socialNetworks p {
