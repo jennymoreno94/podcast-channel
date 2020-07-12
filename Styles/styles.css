@@ -126,7 +126,6 @@ li a {
   font-weight: 500;
   font-size: 1em;
   background-color: #00F3BB;
-
   letter-spacing: 0;
   text-align: center;
   line-height: 22px;
@@ -166,8 +165,6 @@ button:hover {
   /*padding: 116px 0px 0px 0px;*/
   /*width: 100%;*/
 }
-
-
 
 #episodies h2 {
   /*width: 90vw;*/
@@ -380,6 +377,8 @@ h3 {
     background-color: #FFFFFF;
     list-style-type: none;
     z-index: 1;
+    display: flex;
+    justify-content: flex-end;
   }
   
   li a {
@@ -574,6 +573,8 @@ h3 {
     background-color: #FFFFFF;
     list-style-type: none;
     z-index: 1;
+    display: flex;
+    justify-content: flex-end;
   }
   
   li a {
@@ -597,6 +598,8 @@ h3 {
     color: rgba(6,10,36,0.56);
   }
   
+
+
   #home {
     padding-top: 10vh;
     padding: 120px 200px 0px;
