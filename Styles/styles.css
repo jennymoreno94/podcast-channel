@@ -722,11 +722,11 @@ header nav .menu .menu-btn:checked ~ ul {
 }
 
 }
-@media screen and (prefers-color-scheme: dark) {
+
+@media (prefers-color-scheme: dark) {
   .socialNetworks i {
     color: #FFFFFF;
   }
 }
-
 
 
