@@ -9,12 +9,11 @@
   -webkit-box-sizing: border-box;
 }
 
-/*GENERALES*/
 .container {
   width: 100%;
   height: auto;
   padding-top: 10%;
-  border: #000000 1px solid;
+  padding-bottom: 1%;
 }
 
 p {
@@ -44,6 +43,7 @@ h1 {
   letter-spacing: 0;
   text-align: center;
   border: none;
+  padding: 5%;
 }
 
 .button a {
@@ -77,7 +77,6 @@ h3 {
   text-align: center;
 }
 
-/*HEADER*/
 header {
   display: flex;
   position: fixed;
@@ -85,7 +84,6 @@ header {
   align-items: center;
   width: 100%;
   padding: 10px 5%;
-  border: #000000 1px solid;
   background-color: #FFFFFF;
   z-index: 1;
 }
@@ -107,7 +105,6 @@ header nav .menu ul {
   background: #0000EC;
   height: 0px;
   top: 44px;
-  border: #000000 1px solid;
 }
 
 li a {
@@ -144,25 +141,21 @@ header nav .menu .menu-btn:checked ~ ul {
   transition: flex-basis 500ms ease-in-out;
 }
 
-/*HOME*/
 #home  {
   display: flex;
   flex-direction: column;
   width: 100%;
   height: auto;
-  border: #000000 1px solid;
 }
 
 #home h1 {
   width: 80%;
   margin: 5%;
   padding-top: 5%;
-  border: #000000 1px solid;
 }
 
 #home p {
   margin: 5%;
-  border: #000000 1px solid;
 }
 
 #home #pweb {
@@ -182,7 +175,6 @@ header nav .menu .menu-btn:checked ~ ul {
   margin: 5% ;
 }
 
-/*EPISODIES*/
 #episodies {
   background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
  -webkit-transform: skewY(-6deg);
@@ -199,14 +191,12 @@ header nav .menu .menu-btn:checked ~ ul {
 
 #episodies .tittleEpisodes {
   width: 100%;
-  border: #000000 1px solid;
 }
 
 #episodies h2 {
   margin: 5%;
   padding-top: 5%;
   color: #FFFFFF;
-  border: #000000 1px solid;
 }
 
 .frames {
@@ -223,25 +213,21 @@ header nav .menu .menu-btn:checked ~ ul {
     border: none;
 }
 
-/*ABOUT AS*/
 #about_us .container  {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  border: #000000 1px solid;
 }
 
 #about_us h2 {
   width: 80%;
   margin: 5%;
   padding-top: 5%;
-  border: #000000 1px solid;
 }
 
 #about_us p {
   margin: 5%;
-  border: #000000 1px solid;
 }
 
 .img {
@@ -250,18 +236,15 @@ header nav .menu .menu-btn:checked ~ ul {
   margin: -33% 0% 0% 5%;
 }
 
-/*GUESTS*/
 #guests .container  {
   display: flex;
   flex-direction: column;
   width: 100%;
-  border: #000000 1px solid;
 }
 
 #guests h2 {
   margin: 5%;
   padding-top: 5%;
-  border: #000000 1px solid;
 }
 
 .grid_images {
@@ -274,25 +257,20 @@ header nav .menu .menu-btn:checked ~ ul {
   height: auto
 }
 
-
-/*TOPICS*/
 #topics .container  {
   display: flex;
   flex-direction: column;
   width: 100%;
-  border: #000000 1px solid;
 }
 
 #topics h2 {
   margin: 5%;
   padding-top: 5%;
-  border: #000000 1px solid;
 }
 
 #topics h3 {
   margin: 3%;
   padding-top: 3%;
-  border: #000000 1px solid;
 }
 
 #topics .topic_icons {
@@ -308,10 +286,8 @@ header nav .menu .menu-btn:checked ~ ul {
   margin: 3%;
 }
 
-/*NEWS*/
 #news .container {
   padding-top: 20%;
-  border: #000000 1px solid;
   margin: 0% 0% 20% 0%;
 }
 
@@ -320,7 +296,7 @@ header nav .menu .menu-btn:checked ~ ul {
  -webkit-clip-path:  polygon(0 19%, 100% 0, 100% 99%, 0% 100%);
  -ms-clip-path:  polygon(0 19%, 100% 0, 100% 99%, 0% 100%);
   clip-path: polygon(0 19%, 100% 0, 100% 99%, 0% 100%);
-  border: #000000 1px solid;
+  padding-bottom: 1%; 
 }
 
 #news h3 {
@@ -330,7 +306,6 @@ header nav .menu .menu-btn:checked ~ ul {
   text-align: center;
   color: #FFFFFF;
   margin: 3%;
-  border: #000000 1px solid;
 }
 
 #news .button{
@@ -338,7 +313,6 @@ header nav .menu .menu-btn:checked ~ ul {
   margin: 5%;
 }
 
-/*FOOTER*/
 .socialNetworks .container {
   display: flex;
   flex-direction: column;
@@ -363,20 +337,16 @@ header nav .menu .menu-btn:checked ~ ul {
   color: #000000;
 }
 
-/*MEDIAQUERIES*/
-/*TABLET*/
+
 @media (min-width: 768px) {
 
-  /*HOME*/
   #home h1 {
     margin: 0% 0% 0% 10%;
     padding-top: 0%;
-    border:red 1px solid;
   }
 
   #home p {
     margin: 2% 0% 0% 10%;
-    border: red 1px solid;
     width: 70%;
   }
 
@@ -393,15 +363,14 @@ header nav .menu .menu-btn:checked ~ ul {
   }
   
   #home .button {
+    padding: 2%;
     margin: 3% 0% 0% 10%;
     width: 30%;
   }
 
-   /*EPISODIES*/
    #episodies h2 {
     font-size: 3em;
     margin: 0% 0% 0% 10%;
-    border:white 1px solid;
   }
 
   #episodies .container {
@@ -419,11 +388,9 @@ header nav .menu .menu-btn:checked ~ ul {
     margin: 10% 0% 0% 4%;
   }
 
-  /*ABOUT AS*/
   #about_us .container {
     display: flex;
     flex-direction: row;
-    border: #000000 1px solid;
     padding-top: 2%;
   }
 
@@ -432,59 +399,57 @@ header nav .menu .menu-btn:checked ~ ul {
     height: 40%;
     position: relative;
     margin: -11% 0% 0% 5%;
-    border: #000000 1px solid;
   }
 
   #about_us h2 {
     margin: 7%;
     font-size: 3em;
-    border: #000000 1px solid;
-  }
-
-  #about_us p {
-    width: 75%;
-    margin: 7%;
-    border: #000000 1px solid;
-    font-size: 1em;
-    line-height: 24px;
   }
 
   #information_about_us{
     margin: 0% 0% 0% 5%;
     width: 100%;
-    border: #000000 1px solid;
   }
 
-  /*GUESTS*/
+  #about_us p {
+    width: 75%;
+    margin: 7%;
+    font-size: 1em;
+    line-height: 24px;
+  }
+
+  #guests .container {
+    padding-top: 5%;
+  }
+
   #guests h2 {
     margin: 0% 0% 0% 10%;
-     border: #000000 1px solid;
+    padding: 0% 0% 5% 0%;
   }
   
   .grid_images {
     grid-template: repeat(2, 1fr) /repeat(3, 1fr);
   }
 
-  /*TOPICS*/
+  #topics .container {
+    padding-top: 0%;
+  }
+
   #topics h2 {
     margin: 0% 0% 0% 10%;
-    border: #000000 1px solid;
   }
 
   #topics .topic_icons {
     display: flex;
     flex-direction: row;
     margin: 5% 10% 0% 10%;
-    border: #000000 1px solid;
   }
 
   #topics h3 {
     margin:5%;
     padding-top: 5%;
-    border: #000000 1px solid;
   }
 
-  /*NEWS*/
   #news .container {
     margin: 0% 0% 10% 0%;
     padding-top: 15%;
@@ -496,21 +461,19 @@ header nav .menu .menu-btn:checked ~ ul {
     font-weight: 400;
     text-align: center;
     color: #FFFFFF;
-    border: #000000 1px solid;
   }
   
   #news .button{
-    width: 30%;
+    padding: 2%;
+    width: 40%;
     margin: 0% 33% 0% 33%;
   }
 
-  /*FOOTER*/
   .socialNetworks .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-top:3%;
-    border: #000000 1px solid;
   }
 
   .socialNetworks p {
@@ -520,15 +483,12 @@ header nav .menu .menu-btn:checked ~ ul {
   .socialNetworks .social_icons {
     padding: 0% 7% 0% 7%;
     width: 40%;
-    border: #000000 1px solid;
   }
   
 }
 
-/*DESKTOP*/
 @media (min-width: 1220px) {
   
-  /*HEADER*/
   header nav .menu .menu-icon {
     display: none;
   }
@@ -566,16 +526,13 @@ header nav .menu .menu-btn:checked ~ ul {
     font-size: 3em;
   }
 
-  /*HOME*/
   #home h1 {
     font-size: 4em;
     margin: 10% 0% 0% 15%;
-    border:blue 1px solid;
   }
 
   #home p {
     margin: 2% 0% 0% 15%;
-    border: blue 1px solid;
     width: 45%;
   }
 
@@ -591,15 +548,15 @@ header nav .menu .menu-btn:checked ~ ul {
     color:#0000EC;
   }
   #home .button {
+    padding: 1%;
     margin: 3% 0% 0% 15%;
     width: 20%;
   }
 
-  /*EPISODIES*/
   #episodies h2 {
     margin: 0% 0% 0% 15%;
-    border:white 1px solid;
   }
+
   #episodies .container {
     padding-top: 5%;
   }
@@ -615,11 +572,9 @@ header nav .menu .menu-btn:checked ~ ul {
     margin: 10% 0% 0% 4%;
   }
 
-/*ABOUT AS*/
   #about_us .container {
     display: flex;
     flex-direction: row;
-    border: #000000 1px solid;
     padding-top: 2%;
   }
 
@@ -628,61 +583,57 @@ header nav .menu .menu-btn:checked ~ ul {
     height: 660px;
     position: relative;
     margin: -10% 0% 0% 11%;
-    border: #000000 1px solid;
-  }
-
-  #about_us h2 {
-    margin: 7%;
-    border: #000000 1px solid;
-  }
-
-  #about_us p {
-    width: 75%;
-    margin: 7%;
-    border: #000000 1px solid;
-    font-size: 1em;
-    line-height: 24px;
   }
 
   #information_about_us{
     margin: 0% 0% 0% 10%;
     width: 100%;
-    border: #000000 1px solid;
   }
 
-  /*GUESTS*/
+  #about_us h2 {
+    margin: 7%;
+  }
+
+  #about_us p {
+    width: 75%;
+    margin: 7%;
+    font-size: 1em;
+    line-height: 24px;
+  }
+
+  #guests .container {
+    padding-top: 9%;
+  }
+
   #guests h2 {
     margin: 0% 0% 0% 15%;
-    border: #000000 1px solid;
   }
 
   .grid_images {
     grid-template: repeat(2, 1fr) /repeat(3, 1fr);
   }
 
-  /*TOPICS*/
+  #topics .container {
+    padding-top: 9%;
+  }
+
   #topics h2 {
     margin: 0% 0% 0% 15%;
-    border: #000000 1px solid;
   }
 
   #topics .topic_icons {
     display: flex;
     flex-direction: row;
     margin: 5% 16% 0% 16%;
-    border: #000000 1px solid;
   }
 
   #topics h3 {
     margin:5%;
     padding-top: 5%;
-    border: #000000 1px solid;
   }
 
-  /*NEWS*/
   #news .container {
     padding-top: 10%;
-    border: #000000 1px solid;
     margin: 0% 0% 10% 0%;
   }
 
@@ -693,22 +644,20 @@ header nav .menu .menu-btn:checked ~ ul {
     text-align: center;
     color: #FFFFFF;
     margin: 3%;
-    border: #000000 1px solid;
   }
 
   #news .button{
-    width: 20%;
-    margin: 0% 40% 0% 40%;
+    padding: 1%;
+    width: 30%;
+    margin: 0% 35% 0% 35%;
     align-items: center;
   }
 
-/*FOOTER*/
 .socialNetworks .container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding-top:3%;
-  border: #000000 1px solid;
 }
 
 .socialNetworks p {
@@ -718,15 +667,12 @@ header nav .menu .menu-btn:checked ~ ul {
 .socialNetworks .social_icons {
   padding: 0% 7% 0% 7%;
   width: 40%;
-  border: #000000 1px solid;
 }
 
 }
-
-@media (prefers-color-scheme: dark) {
+@media screen and (prefers-color-scheme: dark) {
   .socialNetworks i {
     color: #FFFFFF;
   }
 }
-
 
